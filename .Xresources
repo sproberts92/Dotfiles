@@ -1,0 +1,7 @@
+URxvt.scrollstyle: plain
+URxvt.scrollBar_right: true
+URxvt.cursorBlink: true
+
+*.foreground: grey
+*.background: black
+
