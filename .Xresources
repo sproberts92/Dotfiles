@@ -1,7 +1,21 @@
+#define white #ffffff
+#define off_white #ecf0f1
+#define black #141414
+#define dark_grey #1a1a1a
+#define light_grey #555555
+#define medium_light_grey #2a2a2a
+#define medium_dark_grey #222222
+#define green #2ecc71
+#define aqua #1abc9c
+#define red #e74c3c
+#define blue #3498db
+#define yellow #f1c40f
+#define orange_red #e67e22
+#define periwinkle #6c71c4
+
 URxvt.scrollstyle: plain
 URxvt.scrollBar_right: true
 URxvt.cursorBlink: true
 
-*.foreground: grey
-*.background: black
-
+*.foreground: off_white
+*.background: dark_grey
