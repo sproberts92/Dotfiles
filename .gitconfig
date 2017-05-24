@@ -1,0 +1,13 @@
+[push]
+	default = simple
+[core]
+	editor = subl3
+	autocrlf = input
+[alias]
+	s = status
+	b = branch --all
+	l = log --graph --pretty=format:"%C(yellow)%h\\ %C(red)%d\\ %Creset%s" --decorate --branches
+	lb = log --graph --pretty=format:"%C(yellow)%h\\ %Cblue[%cn]\\ %C(red)%d\\ %Creset%s" --decorate --branches
+	r = remote --verbose
+[diff]
+	compactionHeuristic = true
