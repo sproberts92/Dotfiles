@@ -22,3 +22,12 @@ URxvt.secondaryScroll: 0
 
 *.foreground: off_white
 *.background: dark_grey
+
+*.color1: red
+*.color2: green
+*.color3: yellow
+*.color4: periwinkle
+*.color9: red
+*.color10: green
+*.color12: blue
+*.color14: aqua
