@@ -17,5 +17,8 @@ URxvt.scrollstyle: plain
 URxvt.scrollBar_right: true
 URxvt.cursorBlink: true
 
+URxvt.secondaryScreen: 1
+URxvt.secondaryScroll: 0
+
 *.foreground: off_white
 *.background: dark_grey
