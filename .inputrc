@@ -1,0 +1,8 @@
+set editing-mode vi
+set keymap vi-command
+
+set colored-stats on
+set colored-completion-prefix on
+
+set show-all-if-ambiguous on
+set show-mode-in-prompt on
