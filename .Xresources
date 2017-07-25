@@ -18,6 +18,8 @@ URxvt.scrollstyle: plain
 URxvt.scrollBar_right: true
 URxvt.cursorBlink: true
 
+URxvt.saveLines: 1000000
+
 URxvt.secondaryScreen: 1
 URxvt.secondaryScroll: 0
 
