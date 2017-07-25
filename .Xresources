@@ -12,6 +12,7 @@
 #define yellow #f1c40f
 #define orange_red #e67e22
 #define periwinkle #6c71c4
+#define magenta #ff56ff
 
 URxvt.scrollstyle: plain
 URxvt.scrollBar_right: true
@@ -27,7 +28,9 @@ URxvt.secondaryScroll: 0
 *.color2: green
 *.color3: yellow
 *.color4: periwinkle
+*.color5: magenta
 *.color9: red
 *.color10: green
 *.color12: blue
+*.color13: magenta
 *.color14: aqua
