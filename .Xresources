@@ -15,6 +15,7 @@
 #define magenta #ff56ff
 
 URxvt.scrollstyle: plain
+URxvt.scrollColor: light_grey
 URxvt.scrollBar_right: true
 URxvt.cursorBlink: true
 
