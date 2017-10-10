@@ -1,0 +1,41 @@
+command=/usr/lib/i3blocks/$BLOCK_NAME
+separator_block_width=15
+markup=none
+
+[load_average]
+label=
+interval=1
+separator=false
+
+[memory]
+label=
+separator=false
+interval=5
+
+[disk]
+label=
+interval=30
+
+[temperature]
+label=TEMP
+interval=1
+
+[battery]
+label=⚡
+interval=30
+
+[time_nyc]
+command=echo "NYC:" $(env TZ=America/New_York date '+%H:%M%z')
+interval=30
+
+[time_hcmc]
+command=echo "SGN:" $(env TZ=Asia/Ho_Chi_Minh date '+%H:%M%z')
+interval=30
+
+[time_adelaide]
+command=echo "ADL:" $(env TZ=Australia/Adelaide date '+%H:%M%z')
+interval=30
+
+[time_amsterdam]
+command=echo "AMS:" $(env TZ=Europe/Amsterdam date '+%Y-%m-%d %H:%M:%S%z')
+interval=1
