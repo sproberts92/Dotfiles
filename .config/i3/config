@@ -21,6 +21,9 @@ floating_modifier $mod
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
 
+# lock screen
+bindsym Control+Mod1+l exec i3lock -e -f -t -i ~/Images/wallpaper.png
+
 # kill focused window
 bindsym $mod+Shift+q kill
 
