@@ -1,7 +1,7 @@
 [push]
 	default = simple
 [core]
-	editor = subl3 -wait
+	editor = subl -wait
 	autocrlf = input
 [alias]
 	s = status
