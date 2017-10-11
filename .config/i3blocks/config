@@ -17,7 +17,7 @@ label=
 interval=30
 
 [temperature]
-label=TEMP
+label=
 interval=1
 
 [battery]
