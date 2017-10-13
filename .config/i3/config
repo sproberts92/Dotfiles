@@ -94,6 +94,13 @@ bindsym $mod+a focus parent
 # focus the child container
 #bindsym $mod+d focus child
 
+# move workspaces between monitors
+bindsym $mod+Control+s exec rotate-focused-workspaces
+bindsym $mod+Control+h move workspace to output left
+# bindsym $mod+Control+j move workspace to output up
+# bindsym $mod+Control+k move workspace to output down
+bindsym $mod+Control+l move workspace to output right
+
 # switch to workspace
 bindsym $mod+1 workspace 1
 bindsym $mod+2 workspace 2
