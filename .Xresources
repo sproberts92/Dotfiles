@@ -25,6 +25,7 @@ URxvt.secondaryScreen: 1
 URxvt.secondaryScroll: 0
 
 URxvt.font: xft:Inconsolata:size=9
+URxvt.letterSpace: -1
 
 Xft.rgba: rgb
 Xft.lcdfilter: lcdnone
