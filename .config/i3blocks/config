@@ -28,6 +28,10 @@ interval=30
 command=echo "NYC:" $(env TZ=America/New_York date '+%H:%M%z')
 interval=30
 
+[time_sin]
+command=echo "SIN:" $(env TZ=Asia/Singapore date '+%H:%M%z')
+interval=30
+
 [time_hcmc]
 command=echo "SGN:" $(env TZ=Asia/Ho_Chi_Minh date '+%H:%M%z')
 interval=30
