@@ -29,6 +29,11 @@ label=
 interval=once
 signal=1
 
+[vpn]
+interval=5
+command=i3block-vpn-check
+markup=pango
+
 [time_nyc]
 command=echo "NYC:" $(env TZ=America/New_York date '+%H:%M%z')
 interval=30
