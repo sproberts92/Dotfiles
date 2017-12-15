@@ -24,6 +24,11 @@ interval=1
 label=⚡
 interval=30
 
+[volume]
+label=
+interval=once
+signal=1
+
 [time_nyc]
 command=echo "NYC:" $(env TZ=America/New_York date '+%H:%M%z')
 interval=30
