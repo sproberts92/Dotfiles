@@ -19,5 +19,4 @@ alias drma='drmc; drmi; drmv'
 
 alias pyact='. venv/bin/activate'
 
-alias music='systemctl --user start mpd && ncmpcpp'
 
