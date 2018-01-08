@@ -1,0 +1,11 @@
+[Unit]
+Description=Change wallpaper periodically
+Requires=grapical-session.target
+
+[Timer]
+OnActiveSec=1
+OnUnitActiveSec=10min
+
+[Install]
+WantedBy=timers.target
+
