@@ -99,8 +99,8 @@ bindsym $mod+Control+h move workspace to output left
 bindsym $mod+Control+l move workspace to output right
 
 # fixed application workspaces
-set $workspace9 "9: "
-set $workspace10 "10: "
+set $workspace9 "9: "
+set $workspace10 "10: "
 
 # switch to workspace
 bindsym $mod+1 workspace 1
