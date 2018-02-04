@@ -19,4 +19,12 @@ alias drma='drmc; drmi; drmv'
 
 alias pyact='. venv/bin/activate'
 
+alias git-hard-reset='rm -rf $(ls -a | grep -vxE "\.|\.\.|.git") && git checkout .'
+
+function aur() {
+	path="$HOME/AUR/$1"
+	rm -rf $path
+	git clone "https://aur.archlinux.org/$1.git" $path
+	cd $path
+}
 
