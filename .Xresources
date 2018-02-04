@@ -41,8 +41,12 @@ Xft.lcdfilter: lcdnone
 *.color3: yellow
 *.color4: periwinkle
 *.color5: magenta
-*.color9: red
+*.color6: aqua
+*.color7: light_grey
+*.color8: medium_dark_grey
+*.color9: orange_red
 *.color10: green
+*.color11: yellow
 *.color12: blue
 *.color13: magenta
 *.color14: aqua
