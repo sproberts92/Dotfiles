@@ -43,7 +43,7 @@ Xft.lcdfilter: lcdnone
 *.color5: magenta
 *.color6: aqua
 *.color7: light_grey
-*.color8: medium_dark_grey
+*.color8: light_grey
 *.color9: orange_red
 *.color10: green
 *.color11: yellow

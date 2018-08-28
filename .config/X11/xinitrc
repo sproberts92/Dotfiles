@@ -1,0 +1,6 @@
+[[ -f $XDG_CONFIG_HOME/X11/Xresources ]] \
+	&& xrdb -merge -I$HOME $XDG_CONFIG_HOME/X11/Xresources
+
+udiskie &
+exec i3
+
