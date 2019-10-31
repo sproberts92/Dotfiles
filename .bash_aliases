@@ -31,3 +31,5 @@ function aur() {
 }
 
 alias calc='python'
+
+command -v resolvectl > /dev/null && alias host='resolvectl query'
