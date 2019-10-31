@@ -3,8 +3,8 @@ alias ll='ls -lahF'
 
 alias config='/usr/bin/git --git-dir=$HOME/.config-git/ --work-tree=$HOME'
 
-alias pacl='pacman -Qqettn'
-alias paclu='pacman -Qqettm'
+alias pacl='pacman -Qettn'
+alias paclu='pacman -Qettm'
 
 alias dlsc='docker ps'
 alias dlsi='docker images'
