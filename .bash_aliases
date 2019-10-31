@@ -17,7 +17,8 @@ alias drmi='docker rmi -f $(docker images -aq)'
 alias drmv='docker volume rm -f $(docker volume ls -q)'
 alias drma='drmc; drmi; drmv'
 
-alias pyact='. venv/bin/activate'
+alias ve='python3 -m venv ./venv'
+alias va='. ./venv/bin/activate'
 
 alias git-hard-reset='rm -rf $(ls -a | grep -vxE "\.|\.\.|.git") && git checkout .'
 
