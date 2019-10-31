@@ -1,6 +1,8 @@
 alias ls='ls --color=auto -F'
 alias ll='ls -lahF'
 
+alias grep='grep --color=auto'
+
 alias config='/usr/bin/git --git-dir=$HOME/.config-git/ --work-tree=$HOME'
 
 alias pacl='pacman -Qettn'
