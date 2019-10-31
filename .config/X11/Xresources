@@ -3,6 +3,7 @@
 #define black #141414
 #define dark_grey #1a1a1a
 #define light_grey #555555
+#define lighter_grey #aaaaaa
 #define medium_light_grey #2a2a2a
 #define medium_dark_grey #222222
 #define green #2ecc71
@@ -42,7 +43,7 @@ Xft.lcdfilter: lcdnone
 *.color4: periwinkle
 *.color5: magenta
 *.color6: aqua
-*.color7: light_grey
+*.color7: lighter_grey
 *.color8: light_grey
 *.color9: orange_red
 *.color10: green
