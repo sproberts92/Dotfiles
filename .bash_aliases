@@ -21,6 +21,8 @@ alias pyact='. venv/bin/activate'
 
 alias git-hard-reset='rm -rf $(ls -a | grep -vxE "\.|\.\.|.git") && git checkout .'
 
+alias psync='rsync --no-perms --no-times --size-only'
+
 function aur() {
 	path="$HOME/AUR/$1"
 	rm -rf $path
