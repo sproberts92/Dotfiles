@@ -21,11 +21,6 @@ alias pyact='. venv/bin/activate'
 
 alias git-hard-reset='rm -rf $(ls -a | grep -vxE "\.|\.\.|.git") && git checkout .'
 
-function scrot() {
-	scr_dir=$HOME/Images/Screenshots
-	/usr/bin/scrot -e "mkdir -p $scr_dir && mv \$f $scr_dir" "$@"
-}
-
 function aur() {
 	path="$HOME/AUR/$1"
 	rm -rf $path
