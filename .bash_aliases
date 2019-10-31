@@ -30,3 +30,4 @@ function aur() {
 	cd $path
 }
 
+alias calc='python'
