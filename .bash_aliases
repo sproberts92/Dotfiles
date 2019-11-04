@@ -21,6 +21,7 @@ alias drma='drmc; drmi; drmv'
 
 alias ve='python3 -m venv ./venv'
 alias va='. ./venv/bin/activate'
+alias vd='deactivate'
 
 alias git-hard-reset='rm -rf $(ls -a | grep -vxE "\.|\.\.|.git") && git checkout .'
 
