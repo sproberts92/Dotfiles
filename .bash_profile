@@ -2,6 +2,8 @@
 # ~/.bash_profile
 #
 
+export XDG_CONFIG_HOME=${HOME}/.config
+
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 
 export EDITOR=vim
